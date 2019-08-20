@@ -1,0 +1,162 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    max-height: 800px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel-caption {
+    bottom: 230px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    text-shadow: -4px -4px 10px rgb(66, 65, 65),
+    4px -4px 10px rgb(66, 65, 65),
+    -4px 4px 10px rgb(66, 65, 65),
+    4px 4px 10px  rgb(66, 65, 65);
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    text-shadow: -4px -4px 15px rgb(66, 65, 65),
+    4px -4px 15px rgb(66, 65, 65),
+    -4px 4px 15px rgb(66, 65, 65),
+    4px 4px 15px  rgb(66, 65, 65);
+  }
+  
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: -4px -4px 15px rgb(66, 65, 65),
+    4px -4px 15px rgb(66, 65, 65),
+    -4px 4px 15px rgb(66, 65, 65),
+    4px 4px 15px  rgb(66, 65, 65)
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+
+  .container.mt-5 > div.image > img{
+    width: 290px;
+    height: 240px;
+  }
+  .container.mt-5 > blockquote > h1{
+    color: darkslategrey;
+  }
+  .container.mt-5 > div > div {
+    color: darkslategrey;
+  }
+
+  .container.mt-5 > div > div > div > p{
+    font-size: 20px;
+  }
+  /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 350px;
+  }
+  .carousel-inner{
+    height: 350px;
+ }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+  .carousel-inner img {
+    width: 100%;
+    height: 450px;
+  }
+  .carousel-inner{
+    height: 450px;
+ }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .carousel-inner img {
+    width: 100%;
+    height: 550px;
+  }
+  .carousel-inner{
+    height: 550px;
+ }
+ .carousel-caption {
+  bottom: 480px;
+}
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .carousel-inner img {
+    width: 100%;
+    height: 650px;
+  }
+  .carousel-inner{
+    height: 650px;
+ }
+ .carousel-caption {
+  bottom: 400px;
+}
+ }
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .carousel-inner img {
+    width: 100%;
+    height: 750px;
+  }
+  .carousel-inner{
+    height: 750px;
+ }
+ .carousel-caption {
+  bottom: 320px;
+ }
+ }*/
