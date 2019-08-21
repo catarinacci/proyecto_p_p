@@ -101,10 +101,13 @@
 @media (max-width: 575.98px) {
   .carousel-inner img {
     width: 100%;
-    height: 350px;
+    height: 250px;
   }
   .carousel-inner{
-    height: 350px;
+    height: 250px;
+ }
+ .container.mt-5 > blockquote > h1{
+   font-size: 2.2rem;
  }
 }
 /* Small devices (landscape phones, 576px and up)*/

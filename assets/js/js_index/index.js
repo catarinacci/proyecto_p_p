@@ -13,7 +13,7 @@ $(document).ready(function(){
             $("#navbarSupportedContent > ul > li:nth-child(5) > a").addClass('btn-success');
             $("#navbarSupportedContent > ul > li:nth-child(4) > a").removeClass('btn-outline-primary');
             $("#navbarSupportedContent > ul > li:nth-child(4) > a").addClass('btn-primary');
-            $(".navbar").removeClass('navbar-light bg-dark');
+            $(".navbar").removeClass('navbar-dark bg-dark');
             $(".navbar").addClass('navbar-light'); 
         }
     });
