@@ -7,7 +7,7 @@ $(document).ready(function(){
             $("#navbarSupportedContent > ul > li:nth-child(4) > a").addClass('btn-outline-primary');
             $("#navbarSupportedContent > ul > li:nth-child(4) > a").removeClass('btn-primary'); 
             $(".navbar").addClass('navbar-dark bg-dark');
-            $(".navbar").removeClass('navbar-light'); 
+            $(".navbar").removeClass(' navbar-light'); 
         }else{
             $("#navbarSupportedContent > ul > li:nth-child(5) > a").removeClass('btn-outline-success');
             $("#navbarSupportedContent > ul > li:nth-child(5) > a").addClass('btn-success');
