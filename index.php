@@ -104,7 +104,7 @@
                     <img class="" src="assets/img/img_index/logo.png">
             </div>
             <div class="row justify-content-around d-flex flex-row mt-4 ">
-                <div class="card bg-light mb-3 " style="max-width: 18rem;">
+                <div class="card bg-light mb-3 " style="max-width: 30rem;">
                 <div class="card-body mr-5">
                     <h5 class="card-title">NUESTRO MÉTODO</h5>
                     <p class="card-text">Tus objetivos son los nuestros y, para ayudarte a conseguirlos, nuestro técnico ha desarrolado El Método Tiguer Gym. Con nuestras diferentes clases y actividades dirigidas, más la combinación 
@@ -113,7 +113,7 @@
                 </div>
                 </div>
                
-                <div class="card bg-light mb-3 " style="max-width: 18rem;">
+                <div class="card bg-light mb-3 " style="max-width: 30rem;">
                 <div class="card-body">
                     <h5 class="card-title">NUESTROS INSTRUCTORES</h5>
                     <p class="card-text">Mucho más que un entrenador. En Tiguer Gym hemos creado la figura de los Instructore, los mismos son profecionales del deporte con la capcidad de diseñar entrenamientos específicos para cada caso.
