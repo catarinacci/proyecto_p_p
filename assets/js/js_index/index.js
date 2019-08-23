@@ -15,6 +15,18 @@ $(document).ready(function(){
             $("#navbarSupportedContent > ul > li:nth-child(4) > a").addClass('btn-primary');
             $(".navbar").removeClass('navbar-dark bg-dark');
             $(".navbar").addClass('navbar-light'); 
+            
         }
     });
+    
+    function mediaquery(){
+        if(window.matchMedia('(min-width: 575.98px)').matches){
+            $("#carouselExampleIndicators > div > div > img").addClass('w-100');
+        }else{
+            $("#carouselExampleIndicators > div > div > img").removeClass('w-100');
+        }
+            
+    };
+    mediaquery();
+    window.addEventListener('resize',mediaquery, false);
 });

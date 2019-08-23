@@ -60,7 +60,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/img_index/imagen18e.jpg" alt="Primero slide">
+                <img class="d-block " src="assets/img/img_index/imagen18e.jpg" alt="Primero slide">
                 <div class="carousel-caption d-none d-md-block w-50 ml-auto mr-auto">
                     <h5>TYGER GYM</h5>
                     <p>TU MEJOR OPCIÒN</p>
@@ -107,7 +107,7 @@
                 <div class="card bg-light mb-3 " style="max-width: 30rem;">
                 <div class="card-body mr-5">
                     <h5 class="card-title">NUESTRO MÉTODO</h5>
-                    <p class="card-text">Tus objetivos son los nuestros y, para ayudarte a conseguirlos, nuestro técnico ha desarrolado El Método Tiguer Gym. Con nuestras diferentes clases y actividades dirigidas, más la combinación 
+                    <p class="card-text">Tus objetivos son los nuestros y, para ayudarte a conseguirlos, nuestro equipo técnico ha desarrolado El Método Tiguer Gym. Con nuestras diferentes clases y actividades dirigidas, más la combinación 
                         de algunos hábitos saludables y el apoyo de nuestros instructores, te permitirá alcanzar tus objetivos de una manera eficaz. 
                     </p>
                 </div>
@@ -116,7 +116,7 @@
                 <div class="card bg-light mb-3 " style="max-width: 30rem;">
                 <div class="card-body">
                     <h5 class="card-title">NUESTROS INSTRUCTORES</h5>
-                    <p class="card-text">Mucho más que un entrenador. En Tiguer Gym hemos creado la figura de los Instructore, los mismos son profecionales del deporte con la capcidad de diseñar entrenamientos específicos para cada caso.
+                    <p class="card-text">Mucho más que un entrenador. En Tiguer Gym hemos creado la figura de los Instructores, los mismos son profecionales del deporte con la capcidad de diseñar entrenamientos específicos para cada caso.
                          La garantia de su supervisión permite a nuestros socios realizar ejercicios seguros y efectivo. </p>
                 </div>
                 </div>

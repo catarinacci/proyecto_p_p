@@ -100,36 +100,145 @@
   }
   .container.mt-5 > blockquote > h1{
     color: darkslategrey;
+    font-family: 'CousineBold';
+    font-size: 55px;
   }
   .container.mt-5 > div > div {
     color: darkslategrey;
   }
-
+  .container.mt-5 > div > div > div > h5{
+    font-size: 30px;
+    font-family: 'CousineBold';
+  }
   .container.mt-5 > div > div > div > p{
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'FrancoisOne';
   }
-  /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-  .carousel-inner img {
-    width: 100%;
-    height: 250px;
-  }
+  .w-100 {
+    width:unset; 
+ }
+ @media (max-width: 382.98px){
   .carousel-inner{
-    height: 250px;
+    height: 560px;
  }
- .container.mt-5 > blockquote > h1{
-   font-size: 2.2rem;
+ #carouselExampleIndicators > div > div:nth-child(1) > img{
+  width: 750px;
+  height: 560px;
+  margin-left: -95%;
+}
+#carouselExampleIndicators > div > div:nth-child(2) > img{
+  width: 760px;
+  height: 560px;
+  margin-left: -55%;
+}
+#carouselExampleIndicators > div > div:nth-child(3) > img{
+  width: 736px;
+  height: 560px;
+  margin-left: -30%;
+}
+#carouselExampleIndicators > div > div:nth-child(4) > img{
+  width: 680px;
+  height: 560px;
+  margin-left: -45%;
+}
+
  }
+
+ @media (min-width: 383px)and (max-width: 424.98px) {
+    .carousel-inner{
+      height: 700px;
+  }
+  #carouselExampleIndicators > div > div:nth-child(1) > img{
+    width: 830px;
+    height: 700px;
+    margin-left: -95%;
+  }
+  #carouselExampleIndicators > div > div:nth-child(2) > img{
+    width: 904px;
+    height: 700px;
+    margin-left: -60%;
+  }
+  #carouselExampleIndicators > div > div:nth-child(3) > img{
+    width: 876px;
+    height: 700px;
+    margin-left: -19%;
+  }
+  #carouselExampleIndicators > div > div:nth-child(4) > img{
+    width: 751px;
+    height: 700px;
+    margin-left: -41%;
+  }
+ }
+  /* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 425px)and (max-width: 575.98px) {
+    .carousel-inner{
+      height: 720px;
+    }
+    #carouselExampleIndicators > div > div:nth-child(1) > img{
+      width: 876px;
+      height: 720px;
+      margin-left: -48%;
+    }
+    #carouselExampleIndicators > div > div:nth-child(2) > img{
+      width: 948px;
+      height: 720px;
+      margin-left: -42%;
+    }
+    #carouselExampleIndicators > div > div:nth-child(3) > img{
+      width: 927px;
+      height: 720px;
+      margin-left: -13%;
+    }
+    #carouselExampleIndicators > div > div:nth-child(4) > img{
+      width: 868px;
+      height: 720px;
+      margin-left: -28%;
+    }
+
+  .container.mt-5 > blockquote > h1{
+    font-size: 3rem;
+  }
+  
+  .container.mt-5 > div.image > img {
+    width: 250px;
+    height: 220px;
+  }
+
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px){ 
-  .carousel-inner img {
-    width: 100%;
-    height: 450px;
+    .carousel-inner{
+      height: 720px;
+    }
+    #carouselExampleIndicators > div > div:nth-child(1) > img{
+      width: 876px;
+      height: 720px;
+      margin-left: -48%;
+    }
+    #carouselExampleIndicators > div > div:nth-child(2) > img{
+      width: 948px;
+      height: 720px;
+      margin-left: -42%;
+    }
+    #carouselExampleIndicators > div > div:nth-child(3) > img{
+      width: 927px;
+      height: 720px;
+      margin-left: -13%;
+    }
+    #carouselExampleIndicators > div > div:nth-child(4) > img{
+      width: 868px;
+      height: 720px;
+      margin-left: -28%;
+    }
+
+  .container.mt-5 > blockquote > h1{
+    font-size: 3rem;
   }
-  .carousel-inner{
-    height: 450px;
- }
+  
+  .container.mt-5 > div.image > img {
+    width: 250px;
+    height: 220px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -153,7 +262,7 @@
     width: 100%;
     height: 650px;
   }
-  .carousel-inner{
+  .carousel-inner {
     height: 650px;
  }
  .carousel-caption {
@@ -161,7 +270,7 @@
 }
  }
 
-/* Extra large devices (large desktops, 1200px and up)
+ /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
   .carousel-inner img {
     width: 100%;
@@ -171,6 +280,20 @@
     height: 750px;
  }
  .carousel-caption {
-  bottom: 320px;
+  bottom: 120px;
  }
- }*/
+}
+
+/*Fuentes*/
+@font-face{
+  font-family: FrancoisOne;
+  src: url(fonts/FrancoisOne-Regular.ttf);
+}
+@font-face{
+  font-family: CousineBold;
+  src: url(fonts/Cousine-Bold.ttf);
+}
+@font-face{
+  font-family: CousineRegular;
+  src: url(fonts/Cousine-Regular.ttf);
+}
