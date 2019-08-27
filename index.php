@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/index/style.css">
     
-    <title>TYGER GYM</title>
+    <title>TIGER GYM</title>
     <style>
         .fondo{
             background-color: blue;
@@ -22,7 +22,7 @@
         <div class="container">
             <a class="navbar-brand" href="index.php">
             <img src="assets/img/img_index/logo.png" width="60" height="50" class="d-inline-block align-top" alt="">
-                TYGER GYM
+                TIGER GYM
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@
             <div class="carousel-item active">
                 <img class="d-block " src="assets/img/img_index/imagen18e.jpg" alt="Primero slide">
                 <div class="carousel-caption d-none d-md-block w-50 ml-auto mr-auto">
-                    <h5>TYGER GYM</h5>
+                    <h5>TIGER GYM</h5>
                     <p>TU MEJOR OPCIÒN</p>
                 </div>
             </div>
@@ -99,26 +99,26 @@
         </a>
         </div>
         <div class="container mt-5">
-            <blockquote class="blockquote text-center"><h1>DESCUBRE EL MÉTODO TYGER GYM</h1></blockquote>
+            <blockquote class="blockquote text-center"><h1>DESCUBRE EL MÉTODO TIGER GYM</h1></blockquote>
             <div class="image row justify-content-center">
                     <img class="" src="assets/img/img_index/logo.png">
             </div>
-            <div class="row justify-content-around d-flex flex-row mt-4 ">
-                <div class="card bg-light mb-3 " style="max-width: 30rem;">
-                <div class="card-body mr-5">
-                    <h5 class="card-title">NUESTRO MÉTODO</h5>
-                    <p class="card-text">Tus objetivos son los nuestros y, para ayudarte a conseguirlos, nuestro equipo técnico ha desarrolado El Método Tiguer Gym. Con nuestras diferentes clases y actividades dirigidas, más la combinación 
-                        de algunos hábitos saludables y el apoyo de nuestros instructores, te permitirá alcanzar tus objetivos de una manera eficaz. 
-                    </p>
+            <div class="row justify-content-around d-flex flex-row mt-4">
+                <div class="card " style="width: 30rem;">
+                    <img src="assets/img/img_index/imagen19e.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NUESTRO MÉTODO</h5>
+                        <p class="card-text">Tus objetivos son los nuestros y, para ayudarte a conseguirlos, nuestro equipo técnico ha desarrolado El Método Tiguer Gym. Con nuestras diferentes clases y actividades dirigidas, más la combinación 
+                        de algunos hábitos saludables y el apoyo de nuestros instructores, te permitirá alcanzar tus objetivos de una manera eficaz.</p>
+                    </div>
                 </div>
-                </div>
-               
-                <div class="card bg-light mb-3 " style="max-width: 30rem;">
-                <div class="card-body">
-                    <h5 class="card-title">NUESTROS INSTRUCTORES</h5>
-                    <p class="card-text">Mucho más que un entrenador. En Tiguer Gym hemos creado la figura de los Instructores, los mismos son profecionales del deporte con la capcidad de diseñar entrenamientos específicos para cada caso.
-                         La garantia de su supervisión permite a nuestros socios realizar ejercicios seguros y efectivo. </p>
-                </div>
+                <div class="card " style="width: 30rem;">
+                    <img src="assets/img/img_index/imagen13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NUESTROS INSTRUCTORES</h5>
+                        <p class="card-text">Tus objetivos son los nuestros y, para ayudarte a conseguirlos, nuestro equipo técnico ha desarrolado El Método Tiguer Gym. Con nuestras diferentes clases y actividades dirigidas, más la combinación 
+                        de algunos hábitos saludables y el apoyo de nuestros instructores, te permitirá alcanzar tus objetivos de una manera eficaz.</p>
+                    </div>
                 </div>
             </div>
         </div>

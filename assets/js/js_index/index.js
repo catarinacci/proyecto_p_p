@@ -19,8 +19,8 @@ $(document).ready(function(){
         }
     });
     
-    function mediaquery(){
-        if(window.matchMedia('(min-width: 575.98px)').matches){
+     function mediaquery(){
+        if(window.matchMedia('(min-width: 908px)').matches){
             $("#carouselExampleIndicators > div > div > img").addClass('w-100');
         }else{
             $("#carouselExampleIndicators > div > div > img").removeClass('w-100');
@@ -28,5 +28,5 @@ $(document).ready(function(){
             
     };
     mediaquery();
-    window.addEventListener('resize',mediaquery, false);
+    window.addEventListener('resize',mediaquery, false); 
 });

@@ -1,6 +1,6 @@
 .carousel-item {
     height: 100vh;
-    min-height: 300px;
+    min-height: 560px;
     max-height: 800px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -117,14 +117,16 @@
   .w-100 {
     width:unset; 
  }
- @media (max-width: 382.98px){
+
+
+ @media (max-width: 375px){
   .carousel-inner{
     height: 560px;
  }
  #carouselExampleIndicators > div > div:nth-child(1) > img{
   width: 750px;
   height: 560px;
-  margin-left: -119%;
+  margin-left: -100%;
 }
 #carouselExampleIndicators > div > div:nth-child(2) > img{
   width: 760px;
@@ -139,60 +141,60 @@
 #carouselExampleIndicators > div > div:nth-child(4) > img{
   width: 680px;
   height: 560px;
-  margin-left: -58%;
+  margin-left: -42%;
 }
 
  }
 
- @media (min-width: 383px)and (max-width: 424.98px) {
+  @media (min-width: 376px)and (max-width: 424.98px) {
     .carousel-inner{
-      height: 700px;
+      height: 560px;
   }
   #carouselExampleIndicators > div > div:nth-child(1) > img{
-    width: 830px;
-    height: 700px;
-    margin-left: -95%;
+    width: 750px;
+    height: 560px;
+    margin-left: -77%;
   }
   #carouselExampleIndicators > div > div:nth-child(2) > img{
-    width: 904px;
-    height: 700px;
-    margin-left: -60%;
+    width: 760px;
+    height: 560px;
+    margin-left: -47%;
   }
   #carouselExampleIndicators > div > div:nth-child(3) > img{
-    width: 876px;
-    height: 700px;
-    margin-left: -19%;
+    width: 736px;
+    height: 560px;
+    margin-left: -13%;
   }
   #carouselExampleIndicators > div > div:nth-child(4) > img{
-    width: 751px;
-    height: 700px;
-    margin-left: -41%;
+    width: 680px;
+    height: 560px;
+    margin-left: -32%;
   }
  }
-  /* Extra small devices (portrait phones, less than 576px)*/
+ 
 @media (min-width: 425px)and (max-width: 575.98px) {
     .carousel-inner{
-      height: 720px;
+      height: 560px;
     }
     #carouselExampleIndicators > div > div:nth-child(1) > img{
       width: 876px;
-      height: 720px;
-      margin-left: -48%;
+      height: 560px;
+      margin-left: -106%;
     }
     #carouselExampleIndicators > div > div:nth-child(2) > img{
       width: 948px;
-      height: 720px;
-      margin-left: -42%;
+      height: 560px;
+      margin-left: -70%;
     }
     #carouselExampleIndicators > div > div:nth-child(3) > img{
       width: 927px;
-      height: 720px;
+      height: 560px;
       margin-left: -13%;
     }
     #carouselExampleIndicators > div > div:nth-child(4) > img{
       width: 868px;
-      height: 720px;
-      margin-left: -28%;
+      height: 560px;
+      margin-left: -57%;
     }
 
   .container.mt-5 > blockquote > h1{
@@ -205,30 +207,30 @@
   }
 
 }
-/* Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) and (max-width: 767.98px){ 
     .carousel-inner{
-      height: 720px;
+      height: 560px;
     }
     #carouselExampleIndicators > div > div:nth-child(1) > img{
       width: 876px;
-      height: 720px;
-      margin-left: -48%;
+      height: 560px;
+      margin-left: -13%;
     }
     #carouselExampleIndicators > div > div:nth-child(2) > img{
       width: 948px;
-      height: 720px;
-      margin-left: -42%;
+      height: 560px;
+      margin-left: -23%;
     }
     #carouselExampleIndicators > div > div:nth-child(3) > img{
       width: 927px;
-      height: 720px;
-      margin-left: -13%;
+      height: 560px;
+      margin-left: -0%;
     }
     #carouselExampleIndicators > div > div:nth-child(4) > img{
       width: 868px;
-      height: 720px;
-      margin-left: -28%;
+      height: 560px;
+      margin-left: -13%;
     }
 
   .container.mt-5 > blockquote > h1{
@@ -241,22 +243,38 @@
   }
 }
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-  .carousel-inner img {
-    width: 100%;
-    height: 550px;
-  }
+
+@media (min-width: 768px) and (max-width: 907.98px) { 
   .carousel-inner{
-    height: 550px;
- }
+    height: 560px;
+  }
+  #carouselExampleIndicators > div > div:nth-child(1) > img{
+    width: 908px;
+    height: 585px;
+    margin-left: -17%;
+  }
+  #carouselExampleIndicators > div > div:nth-child(2) > img{
+    width: 948px;
+    height: 560px;
+    margin-left: -4%;
+  }
+  #carouselExampleIndicators > div > div:nth-child(3) > img{
+    width: 927px;
+    height: 560px;
+    margin-left: -2%;
+  }
+  #carouselExampleIndicators > div > div:nth-child(4) > img{
+    width: 911px;
+    height: 578px;
+    margin-left: 0%;
+  }
  .carousel-caption {
-  bottom: 480px;
+  bottom: 200px;
 }
 
  }
+/*
 
-/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   .carousel-inner img {
     width: 100%;
@@ -268,9 +286,9 @@
  .carousel-caption {
   bottom: 400px;
 }
- }
-
- /*Extra large devices (large desktops, 1200px and up)*/
+ } 
+ 
+ Extra large devices (large desktops, 1200px and up)*/
 /*@media (min-width: 1200px) { 
   .carousel-inner img {
     width: 100%;
