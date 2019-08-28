@@ -18,7 +18,8 @@ $(document).ready(function(){
             
         }
     });
-    
+   
+     
      function mediaquery(){
         if(window.matchMedia('(min-width: 908px)').matches){
             $("#carouselExampleIndicators > div > div > img").addClass('w-100');
@@ -29,4 +30,23 @@ $(document).ready(function(){
     };
     mediaquery();
     window.addEventListener('resize',mediaquery, false); 
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        pagination:false,
+        autoplay:1000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
 });

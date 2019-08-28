@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/index/style.css">
-    
+    <link rel="stylesheet" href="assets/css/index/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="assets/css/index/owl.theme.default.min.css"/>
     <title>TIGER GYM</title>
     <style>
         .fondo{
@@ -17,7 +18,7 @@
     </style>
   </head>
   <body>
-    
+     <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.php">
@@ -49,8 +50,8 @@
             </div>
         </div>
         </nav>
-    
-   
+        <!-- fin Navbar -->
+        <!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -60,7 +61,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block " src="assets/img/img_index/imagen18e.jpg" alt="Primero slide">
+                <img class="d-block w-100 " src="assets/img/img_index/imagen18e.jpg" alt="Primero slide">
                 <div class="carousel-caption d-none d-md-block w-50 ml-auto mr-auto">
                     <h5>TIGER GYM</h5>
                     <p>TU MEJOR OPCIÒN</p>
@@ -98,6 +99,8 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
+        <!-- fin Carousel -->
+        <!-- Titulo / Tajetas con imagen "Metodo e intructores" -->
         <div class="container mt-5">
             <blockquote class="blockquote text-center"><h1>DESCUBRE EL MÉTODO TIGER GYM</h1></blockquote>
             <div class="image row justify-content-center">
@@ -122,6 +125,32 @@
                 </div>
             </div>
         </div>
+        <!-- fin Titulo / Tajetas con imagen "Metodo e intructores" -->
+        <!-- Imagen Objetivo - Actividades-->
+        <div class="container-fluid slider d-flex justify-content-center align-items-center">
+            <h2>CUMPLE CON TUS OBJETIVOS!!!!</h2>
+            <h5>Conoce nuestras ACTIVIDADES</h5>
+        </div>
+        <!-- fin Imagen Objetivo - Actividades-->
+        <blockquote class="blockquote text-center"><h1>ACTIVIDADES</h1></blockquote>
+        <!-- Carousel de actividades-->
+        <div class="wrapper">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4>1</h4></div>
+                <div class="item"><h4>2</h4></div>
+                <div class="item"><h4>3</h4></div>
+                <div class="item"><h4>4</h4></div>
+                <div class="item"><h4>5</h4></div>
+                <div class="item"><h4>6</h4></div>
+                <div class="item"><h4>7</h4></div>
+                <div class="item"><h4>8</h4></div>
+                <div class="item"><h4>9</h4></div>
+                <div class="item"><h4>10</h4></div>
+                <div class="item"><h4>11</h4></div>
+                <div class="item"><h4>12</h4></div>
+            </div>
+        </div>
+        <!-- fin Carousel de actividades-->
         <div class="container">
             <p>Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
@@ -180,10 +209,14 @@ S
    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
+    
     <script src="assets/js/js_bootstrap/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/js_index/index.js"></script>
+    <script src="assets/js/js_index/owl.carousel.min.js"></script>
+    <!--<script src="asstes/js/js_bootstrap/owl.carousel.min.js"></script>-->
     <script src="assets/js/js_bootstrap/popper.min.js"></script>
     <script src="assets/js/js_bootstrap/bootstrap.min.js"></script>
-    <script src="assets/js/js_index/index.js"></script>
+    
+    
   </body>
 </html>
