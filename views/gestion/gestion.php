@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Blinker:300,400,700|Saira+Stencil+One&display=swap" rel="stylesheet">
-    <link href="stylesheet" href="../../assets/css/Fontello/css/fontello.css">
-    <link href="stylesheet" href="../../assets/css/bootstrap/bootstrap.min.css">
-    <link href="stylesheet" href="../../assets/css/bootstrap/estilos.css">
+    <link rel="stylesheet" href="../../assets/css/Fontello/css/fontello.css"/>
+    <link rel="stylesheet" href="../../assets/css/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../assets/css/estilos.css"/>
 
 
     <title>Tiger GYM</title>
