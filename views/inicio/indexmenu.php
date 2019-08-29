@@ -6,9 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Blinker:300,400,700|Saira+Stencil+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../Fontello/css/fontello.css">
-    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../Bootstrap/css/estilos.css">
+    <link href="stylesheet" href="../../assets/css/Fontello/css/fontello.css">
+    <link href="stylesheet" href="../../assets/css/bootstrap/bootstrap.min.css">
+    <link href="stylesheet" href="../../assets/css/estilos.css"/>
+
 
     <title>Tiger GYM</title>
 </head>
@@ -20,10 +21,10 @@
         require_once '../layouts/menucelular.php';
     ?>
 
-    <script src="../../Bootstrap/js/jquery-3.4.1.min.js"></script>
-    <script src="../../Bootstrap/js/menu.js"></script>
-    <script src="../../Bootstrap/js/bootstrap.min.js"></script>
-    <script src="../../Bootstrap/js/popper.min.js"></script>
+    <script src="../../assets/js/js_bootstrap/jquery-3.4.1.min.js"></script>
+    <script src="../../assets/js/js_bootstrap/menu.js"></script>
+    <script src="../../assets/js/js_bootstrap/bootstrap.min.js"></script>
+    <script src="../../assets/js/js_bootstrap/popper.min.js"></script>
 
 </body>
 

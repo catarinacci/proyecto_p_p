@@ -13,7 +13,7 @@
             <a href="views/cuenta/cuenta.php">Cuenta</a>
             <a href="views/actividades/actuvudades.php">Actividades</a>
             <a href="views/gestion/gestion.php">Gestion</a>
-            <a href="">Cerrar Sesion</a>
+            <a href="../../index.php">Cerrar Sesion</a>
         </nav>
     </div>
 
