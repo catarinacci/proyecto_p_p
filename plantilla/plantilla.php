@@ -13,6 +13,12 @@
     <title>Tiger GYM</title>
 </head>
 
+<?php
+        require_once '../layouts/header.php';
+        require_once '../layouts/menucelular.php';
+        
+    ?>
+    
 <body>
 
     <script src="Bootstrap/js/jquery-3.4.1.min.js"></script>

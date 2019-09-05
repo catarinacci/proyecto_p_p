@@ -19,6 +19,7 @@
     <?php
         require_once '../layouts/header.php';
         require_once '../layouts/menucelular.php';
+        
     ?>
 
     <script src="../../assets/js/js_bootstrap/jquery-3.4.1.min.js"></script>
