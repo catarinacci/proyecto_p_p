@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+    /* Cambio de transparente a color sólido menú */
     $(window).scroll(function(){
         if($(this).scrollTop() > 100){
             $("#navbarSupportedContent > ul > li:nth-child(5) > a").addClass('btn-outline-success');
@@ -19,7 +20,7 @@ $(document).ready(function(){
         }
     });
    
-     
+     /*Media query imagen carousel header */
      function mediaquery(){
         if(window.matchMedia('(min-width: 908px)').matches){
             $("#carouselExampleIndicators > div > div > img").addClass('w-100');
@@ -31,6 +32,7 @@ $(document).ready(function(){
     mediaquery();
     window.addEventListener('resize',mediaquery, false); 
 
+    /*Carousel Actividades*/
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
@@ -45,7 +47,7 @@ $(document).ready(function(){
                 items:3
             },
             1000:{
-                items:5
+                items:4
             }
         }
     })

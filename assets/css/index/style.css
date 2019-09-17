@@ -1,3 +1,4 @@
+/*carousel header*/
 .carousel-item {
     height: 100vh;
     min-height: 560px;
@@ -35,7 +36,7 @@
     4px 4px 15px  rgb(66, 65, 65);
   }
   
-  
+  /*Meú header*/
   .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;
@@ -55,6 +56,10 @@
   .navbar-light .navbar-nav .nav-link {
     color: #fff;
     font-weight: bold;
+    text-shadow: -4px -4px 15px rgb(66, 65, 65),
+    4px -4px 15px rgb(66, 65, 65),
+    -4px 4px 15px rgb(66, 65, 65),
+    4px 4px 15px  rgb(66, 65, 65)
   }
   
   .navbar-toggler {
@@ -94,6 +99,7 @@
     border-color: rgba(247, 166, 18, 0.91);
     background: #3e3939;
 }
+/* Método e instructores*/
   .container.mt-5 > div.image > img{
     width: 290px;
     height: 240px;
@@ -132,25 +138,108 @@
     color: white;
     margin-top: 20px;
  }
-
 /* CARUSEL ACTIVIDADES*/
 .wrapper{
   width: 100%;
   height: auto;
   overflow: hidden;
-}
+} 
 .item{
-  background: red;
+  position: relative;
+  display: inline-block;
+  text-align: center;
   height: 300px;
   margin-top: 20px;
+} 
+.wrapper > div > div.owl-stage-outer > div > div > div > a > h3{
+  color: darkslategrey;
+  font-family: 'CousineBold'
 }
+.wrapper > div > div.owl-stage-outer > div > div > div > a > h3{
+  font-display: 1.75vw;
+} 
+
 .blockquote > h1{
   color: darkslategrey;
   font-family: 'CousineBold';
   font-size: 55px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
+/*Beneficios y Promociones*/
+.ben{
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategrey;
+  clear: left;
+  text-align: center;
+}
+.container.tarjetas{
+margin-top: 50px;
+}
+.ben > blockquote > p{
+  color: white;
+  font-family: 'CousineBold';
+  font-size: 55px;
+  margin-top: 50px;
+
+}
+/*Ubicación*/
+.container.ubicacion > div > div.ubicacion{
+  margin-top: 50px;
+  overflow: hidden;
+}
+.container.ubicacion > div > div.descrip > p{
+  margin-top: 50px;
+  overflow: hidden;
+  font-family: 'CousineBold';
+  color: darkslategrey;
+} 
+.pb-5, .py-5 {
+  padding-bottom: 0rem!important;
+}
+
+
 /* MEDIA QUERY*/
+
+ @media (max-width: 320px){
+  .carousel-inner{
+    height: 147%;
+    width: 369px;
+ }
+ #carouselExampleIndicators > div > div:nth-child(1) > img{
+  width: 750px;
+  height: 560px;
+  margin-left: -100%;
+}
+#carouselExampleIndicators > div > div:nth-child(2) > img{
+  width: 760px;
+  height: 560px;
+  margin-left: -55%;
+}
+#carouselExampleIndicators > div > div:nth-child(3) > img{
+  width: 736px;
+  height: 560px;
+  margin-left: -30%;
+}
+#carouselExampleIndicators > div > div:nth-child(4) > img{
+  width: 680px;
+  height: 560px;
+  margin-left: -42%;
+}
+.container-fluid.slider{
+  margin-top: 20px;
+  background: url("../../img/img_index/imagen22.jpg");
+  background-color: rgb(100,100,100);
+  background-blend-mode: soft-light;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+} 
  @media (max-width: 375px){
   .carousel-inner{
     height: 560px;
