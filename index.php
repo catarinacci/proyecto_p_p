@@ -1,4 +1,4 @@
-<!-- carga de controladores-->
+
 <?php
     require_once 'autoload.php';
     require_once 'config/parameters.php';
@@ -6,6 +6,7 @@
     require_once 'helpers/utils.php';
 
     session_start();
+    
     function show_error(){
         $error = new errorController();
         $error->index();

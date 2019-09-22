@@ -36,7 +36,7 @@ class loginUsuario {
         $email=$this->getEmail();
         $password=$this->getPassword();
         //Comprobar si existe el usuario
-        $sql = "SELECT ID_USUARIO, pass, ID_TIPO, nombre FROM usuario WHERE email = '$email'";
+        $sql = "SELECT u.ID_USUARIO,u.sexo , u.pass, (t.nombre) AS 'tipo', u.nombre, u.apellido, u.DNI, u.telefono, u.direccion, u.email FROM usuario u JOIN tipo t ON u.ID_TIPO = t.ID_TIPO  WHERE email = '$email'";
         
         $login = $this->db->query($sql);
         
@@ -56,6 +56,8 @@ class loginUsuario {
                 $result=$usuario;
                 
             }
+        }else{
+            
         }
         return $result;
         

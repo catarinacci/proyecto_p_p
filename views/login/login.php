@@ -13,6 +13,9 @@
     <title>TIGER GYM</title>
 
   <body>
+  <div class="error flex-center " style="display: none">
+            <span>Datos no válidos, inténtalo nuevamente...</span>
+  </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
@@ -35,9 +38,9 @@
                 <li class="nav-item">
                 <a class="nav-link" href="#">CONTACTO</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                 <a class="btn btn-success" href="<?=base_url?>login/logout">SALIR</a>
-                </li>
+                </li> -->
 
             </ul>
             </div>
@@ -48,9 +51,10 @@
          <div class="login">
          <div class="container-fluid slider d-flex justify-content-center align-items-center">
           <!-- fin Imagen login-->
+          
           <?php if (!isset($_SESSION['identity'])):?> 
            <!--Formulario login-->
-          <form action="<?=base_url?>login/login" method="POST">
+          <form  name="formlogin" id="formlogin" method="POST">
             <div class="formulario">
               <div class="form-group">
                 <label for="exampleInputEmail1">Dirección de Correo.</label>
@@ -59,14 +63,14 @@
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Contraceña.</label>
-                <input type="password" class="form-control" name="password" id="password" placeholder="Contraceña" required>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Contraceña" minlength="4" maxlength="8" required>
               </div>
               <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Recordarme</label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
+            <input type="submit" name="login" id="loginBtn" class="btn btn-primary" value="Ingresar"/>
           </form>
           <?php else: ?>
              <h3><?= $_SESSION['identity']->nombre?></h3> 
@@ -133,9 +137,11 @@
             <!-- Copyright -->
         </footer>
         <!-- fin Footer -->
-    <script src="<?=base_url?>assets/js/js_bootstrap/jquery-3.4.1.min.js"></script>
 
-    <script src="<?=base_url?>assets/js/js_bootstrap/popper.min.js"></script>
+    <script src="<?=base_url?>assets/js/js_bootstrap/jquery-3.4.1.min.js"></script>
+    <script src="<?=base_url?>assets/js/js_login/login.js"></script> 
+    <!-- <script src="<?=base_url?>assets/js/js_bootstrap/popper.min.js"></script> -->
+    
     <script src="<?=base_url?>assets/js/js_bootstrap/bootstrap.min.js"></script>
    </body>
 </html>

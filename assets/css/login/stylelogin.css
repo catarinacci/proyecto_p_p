@@ -1,4 +1,12 @@
  /*Meú header*/
+ .error{
+   background: red;
+   height: 45px;
+   font-size: 23px;
+   color: #fff;
+    font-weight: bold;
+    text-align: center;
+ }
  .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;

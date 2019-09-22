@@ -58,7 +58,7 @@
 <!-- fin Footer -->
 <script src="<?=base_url?>assets/js/js_bootstrap/jquery-3.4.1.min.js"></script>
 
-<script src="<?=base_url?>assets/js/js_bootstrap/popper.min.js"></script>
+<script src="<?=base_url?>assets/js/js_menu/menu.js"></script> -->
 <script src="<?=base_url?>assets/js/js_bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
