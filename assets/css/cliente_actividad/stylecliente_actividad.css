@@ -62,7 +62,7 @@
     background: #3e3939;
 }
 /*Imagen fondo y formulario*/
- .login{
+.login{
     background: url("../../img/img_index/imagen1.jpg");
     background-blend-mode: soft-light;
     background-color: rgb(100,100,100);
@@ -75,27 +75,19 @@
     flex-direction: column;
     color: white;
  }
-
- .login > div >.container {
-   margin-top: 100px;
- 
- } 
-  .card{
-  background: #424242;
-  background-color: rgba(19, 18, 18, 0.5);
- } 
- /* .login > div >.container > .card-group > .card > .card-body {
-
-  border-color: rgba(24, 24, 23, 0.5);
-   
-  
-}  */
-.login > div > div > div > div:nth-child(1) > img{
-width: 150px;
-height: 150px;
-margin:auto;
+ .row1{
+      margin-top: 150px; 
+     background-color: rgba(161, 250, 17, 0.7); 
+ }
+ .row2{
+  margin-top: 50px; 
+ background-color: rgba(161, 250, 17, 0.7); 
 }
-
- button, input {
-  text-align: center;
-} 
+div.login.d-flex > div:nth-child(1) > div{
+  margin-top: 150px; 
+  background-color: rgba(161, 250, 17, 0.7); 
+}
+ div.login.d-flex > div:nth-child(2) > div{
+  margin-top: 20px; 
+  background-color: rgba(161, 250, 17, 0.7);
+ }

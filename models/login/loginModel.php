@@ -50,8 +50,7 @@ class loginUsuario {
             }else{
                 $verify=false;
             }
-            // var_dump($usuario->pass , $password , $verify);
-            // die();
+           
             if($verify){
                 $result=$usuario;
                 
