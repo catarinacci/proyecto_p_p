@@ -22,16 +22,14 @@ class loginController{
                
             }else{
                 echo json_encode(array('error'=> true));
-               //header("Location:".base_url."login/index");
+               
                
             }
             
         }
 
-        //header("Location:".base_url."login/index");
         
     }
-
 
     public function logout(){
         if(isset($_SESSION['identity'])){

@@ -30,7 +30,7 @@
               
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="btn btn-success" href="<?=base_url?>cliente/index">VOLVER</a>
+                <a class="btn1 btn-success" href="<?=base_url?>cliente/index">VOLVER</a>
                 </li>
             </ul>
             </div>
@@ -84,10 +84,7 @@
                 }?>
                 
                   <?php $hora_act=new clienteController;
-                            // $val=$_POST[$actividades['nombre_actividad']];
-                            // var_dump($val);
-                           
-                            // die();
+                            
                             if($val){
                               $horario= $hora_act->horarios_actividades($val);
                                   }?>  
@@ -103,15 +100,6 @@
                     </thead>
                     <tbody id="datos">
                         <?php
-                        // $hora_act=new clienteController;
-                        //     // $val=$_POST[$actividades['nombre_actividad']];
-                        //     // var_dump($val);
-                           
-                        //     // die();
-                        //     if($val){
-                        // $horario= $hora_act->horarios_actividades($val);
-                        //     }
-                        
                         foreach($horario as $row2){?>
 
                         <tr>
@@ -137,40 +125,7 @@
        </table>
        </form>
         </div>
-        <!--Tabla Horarios-->
-        <!-- <div class="" id="">
-          <table class="table table-responsive ">
-         <thead class="thead-dark">
-            <tr>
-              <th scope="col">DÍA</th>
-              <th scope="col">ENTRADA</th>
-              <th scope="col">SALIDA</th>
-            </tr> 
-         </thead>
-         <tbody id="datos">
-            <?php
-            $hora_act=new clienteController;
-                // $val=$_POST[$actividades['nombre_actividad']];
-                //var_dump($val);
-                //echo json_encode(array('error'=> false, 'tipo' => $val));
-                //die();
-            $horario= $hora_act->horarios_actividades($val);
-            
-            
-            foreach($horario as $row){?>
-
-            <tr>
-              <td><?php echo $row['Día'];?></td>
-              <td><?php echo $row['Hora inicio'];?></td>
-              <td><?php echo $row['Hora salida'];?></td>
-            </tr>
-            
-         </tbody>
-            <?php }?> 
-
-       </table>
-       </div>  -->
-       <!-- fin Tabla Horarios-->
+        
        </div>
         <div class="container d-flex justify-content-center align-items-center">
         <div class="row2 d-flex flex-row">

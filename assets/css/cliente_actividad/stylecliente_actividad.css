@@ -91,3 +91,7 @@ div.login.d-flex > div:nth-child(1) > div{
   margin-top: 20px; 
   background-color: rgba(161, 250, 17, 0.7);
  }
+
+ .btn1{
+  font-size: 22px;
+ }
