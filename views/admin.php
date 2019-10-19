@@ -38,7 +38,7 @@
                 </li>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">REGISTROS E/S</a>
+                <a class="nav-link" href="<?=base_url?>registro/index">REGISTROS E/S</a>
                 </li>
                 </li>
                 <li class="nav-item">

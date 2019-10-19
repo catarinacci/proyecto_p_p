@@ -25,10 +25,7 @@ require_once 'models/cliente/cliente_actividadesModel.php';
          }
          public function horarios_actividades($id_act){
             $horario= new clienteActividades;
-            // $horario->setId_cliente($_SESSION['identity']->ID_USUARIO);
-            // $act=$horario->cliente_actividades();
-            // var_dump ($act);
-            // die();
+           
 
             $val=$id_act;
             $horario_act = $horario->actividad_horario($val);
