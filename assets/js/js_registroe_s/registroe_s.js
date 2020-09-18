@@ -14,18 +14,136 @@ $(document).ready(function(){
             //dataType:'json',
             data:fmr,
             beforeSend: function(){
-              $('#resp').val('aaaaaaaaaaaaaaaaaaa')
+              $('#boton').val('Validando...');
+              $('#boton').addClass('btn btn-warning');
+              $('#resp').val('')
             }
         })
         .done(function(respuesta){
           var a = JSON.parse(respuesta || '{}');
-          console.log(a.nombre + a.apellido + a.fecha);
-            $('#nombre').text(a.nombre);
-            $('#apellido').text(a.apellido);
-            $('#fechavenc').text(a.fecha);
+         
+
+          var venc= "Su cuota vence el:   ";
+          var venc1= "Su cuota venció el ";
+        
+          if(a.error == 'false'){
+
+            $('#boton').val('INGRESAR');
+            $('#boton').removeClass('btn btn-warning');
+            $('#boton').addClass('btn btn-primary');
+            $('#resp').val('');
+            $('#dniValido').show();
+            $('#imagen').hide();
+            $('#datosUsuario').show();
+
+            if(a.tipo==7){
+              if(a.estado=="vigente"){
+                $('#fechavenc').css("color","green");
+                $('#nombre').text(a.nombre);
+                $('#apellido').text(a.apellido);
+                $('#fechavenc').text(venc+a.fecha);
+                $('#fechav').show();
+                setTimeout(function(){
+                  $('#fechav').hide();
+                  $('#dniInvalido').hide();
+                  $('#dniValido').hide();
+                  $('#datosUsuario').hide();
+                  $('#imagen').show();
+                }, 3000);
+                if(a.estadoe_s==1){
+                  $('#salio').show();
+                  console.log(a.estadoe_s+ 'cero');
+                  setTimeout(function(){
+                    $('#salio').hide();
+                  }, 3000);        
+                  $('#entro').hide();
+                }else{
+                  console.log(a.estadoe_s+ 'uno')
+                  $('#entro').show();
+                  setTimeout(function(){
+                    $('#entro').hide();
+                  }, 3000); 
+                  $('#salio').hide();
+                }
+              }else{
+                $('#nombre').text(a.nombre);
+                $('#apellido').text(a.apellido);
+                $('#fechavenc').text(venc1+a.fecha);
+                $('#fechav').show();
+                $('#fechavenc').css("color","red");
+                $('#dniValido').hide();
+                $('#dniInvalido').show();
+                setTimeout(function(){
+                  $('#fechav').hide();
+                  $('#dniInvalido').hide();
+                  $('#dniValido').hide();
+                  $('#datosUsuario').hide();
+                  $('#imagen').show();
+                }, 3000);
+              }
+
+            }else{
+              $('#nombre').text(a.nombre);
+              $('#apellido').text(a.apellido);
+              $('#fechavenc').text("");
+              setTimeout(function(){
+                $('#fechav').hide();
+                $('#dniInvalido').hide();
+                $('#dniValido').hide();
+                $('#datosUsuario').hide();
+                $('#imagen').show();
+              }, 3000);
+              if(a.estadoe_s==1){
+                $('#salio').show();
+                setTimeout(function(){
+                  $('#salio').hide();
+                }, 3000);        
+                $('#entro').hide();
+              }else{
+                $('#entro').show();
+                setTimeout(function(){
+                  $('#entro').hide();
+                }, 3000); 
+                $('#salio').hide();
+              }
+            }
+          }else{
+            $('#salio').hide();
+            $('#entro').hide();
+              $('#fechav').hide();          
+              $('#dniValido').hide();
+              $('#datosUsuario').hide();
+              $('#imagen').hide();
+              $('#dniInvalido').show();
+              $('#boton').val('INGRESAR');
+              $('#boton').removeClass('btn btn-warning');
+              $('#boton').addClass('btn btn-primary');
+              $('#resp').val('');
+            setTimeout(function(){
+              $('#dniInvalido').hide();
+              $('#dniValido').hide();
+              $('#datosUsuario').hide();
+              $('#imagen').show();
+            }, 3000);
+        }
+          // $('#imagen').hide();
+          // $('#datosUsuario').show();
+            
             console.log(respuesta);
             console.log('done');
-            
+            // if(a.estadoe_s==1){
+            //   $('#entro').show();
+            //   setTimeout(function(){
+            //     $('#entro').hide();
+            //   }, 3000);        
+            //   $('#salio').hide();
+            // }else{
+            //   $('#salio').show();
+            //   setTimeout(function(){
+            //     $('#salio').hide();
+            //   }, 3000); 
+            //   $('#entro').hide();
+            // }
         })
         .fail(function(resp){
 
@@ -61,7 +179,7 @@ $(document).ready(function(){
    dia[4]="Jueves";
    dia[5]="Viernes";
    dia[6]="Sábado";
-   document.getElementById('fecha').innerHTML="Hoy es  " + dia[d.getDay()]+" "+ d.getDay() +" " + mes[d.getMonth()]+" del "+ d.getFullYear();
+   document.getElementById('fecha').innerHTML="Hoy es  " + dia[d.getDay()]+" "+ d.getDate() +" " + mes[d.getMonth()]+" del "+ d.getFullYear();
 
    function startTime(){
       var tiempo=new Date();
@@ -83,9 +201,9 @@ $(document).ready(function(){
         segundo = "" + segundo;
       }
       if(hora > 12){
-        exhora = "AM";
-      }else{
         exhora = "PM";
+      }else{
+        exhora = "AM";
       }
       if(hora > 12){
         hora -= 12;

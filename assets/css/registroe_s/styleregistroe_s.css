@@ -80,7 +80,7 @@
     width: 300px;
     height: 226px;
     margin-top: 120px;
-    margin-left: -14px;
+    margin-left: 195px;
     outline: 1px solid red;
   }
 /* Reloj*/
@@ -91,10 +91,10 @@
     font-size: 60px; 
     color: rgb(59, 241, 59);
     text-align: center;
-    text-shadow: -4px -4px 15px rgb(66, 65, 65),
-    4px -4px 15px rgb(66, 65, 65),
-    -4px 4px 15px rgb(66, 65, 65),
-    4px 4px 15px  rgb(66, 65, 65);
+    text-shadow: -4px -4px 15px rgb(10, 10, 10),
+    4px -4px 15px rgb(10, 10, 10),
+    -4px 4px 15px rgb(10, 10, 10),
+    4px 4px 15px  rgb(10, 10, 10);
 }
 #fecha{
   margin-top: 86px;
@@ -103,16 +103,109 @@
     font-size: 30px; 
     color: rgb(59, 241, 59);
     text-align: center;
-    text-shadow: -4px -4px 15px rgb(66, 65, 65),
-    4px -4px 15px rgb(66, 65, 65),
-    -4px 4px 15px rgb(66, 65, 65),
-    4px 4px 15px  rgb(66, 65, 65);
+    text-shadow: -4px -4px 150px rgb(10, 10, 10),
+    4px -4px 15px rgb(10, 10, 10),
+    -4px 4px 15px rgb(10, 10, 10),
+    4px 4px 15px  rgb(10, 10, 10);
 }
 
 #respuesta{
-margin-top: 150px;
+margin-top: 69px;
+margin-left: 191px;
 }
 #datosUsuario{
-  background-color: blanchedalmond;
-  color: black;
+  background: #424242;
+  background-color: rgba(19, 18, 18, 0.5);
+  width: fit-content;
+  
+}
+#fechav{
+  background: #424242;
+  background-color: rgba(19, 18, 18, 0.5);
+  width: fit-content;
+}
+#nombre{
+  font-family: Anton;
+  padding: 20px;
+  font-size: 67px; 
+  color: rgb(4, 8, 4);
+  text-align: center;
+  text-shadow: -4px -4px 50px rgb(66, 65, 65),
+  4px -4px 15px rgb(66, 65, 65),
+  -4px 4px 15px rgb(66, 65, 65),
+  4px 4px 15px  rgb(66, 65, 65);
+}
+#apellido{
+  font-family: Anton;
+  padding: 20px;
+  font-size: 67px; 
+  color:  rgb(4, 8, 4);
+  text-align: center;
+  text-shadow: -4px -4px 15px rgb(66, 65, 65),
+  4px -4px 15px rgb(66, 65, 65),
+  -4px 4px 15px rgb(66, 65, 65),
+  4px 4px 15px  rgb(66, 65, 65);
+}
+#fechavenc{
+  
+   margin-top: -50px;
+  padding: 30px;
+  font-size: 30px; 
+  color: rgb(59, 241, 59);
+  text-align: center;
+  text-shadow: -4px -4px 15px rgb(66, 65, 65),
+  4px -4px 15px rgb(66, 65, 65),
+  -4px 4px 15px rgb(66, 65, 65),
+  4px 4px 15px  rgb(66, 65, 65);
+}
+ 
+#imagen > img{
+  width: 300px;
+  margin-top: -15px;
+}
+p {
+  font-size: 60px;
+  text-shadow: -4px -4px 150px rgb(10, 10, 10),
+  4px -4px 15px rgb(10, 10, 10),
+  -4px 4px 15px rgb(10, 10, 10),
+  4px 4px 15px  rgb(10, 10, 10);
+}
+
+ .rojo {
+  color: red;
+}
+
+ .verde {
+  color: green;
+}
+#entro{
+  margin-top: 20px;
+  margin-left: 175px;
+  font-size: 60px;
+
+}
+#salio{
+  margin-top: 20px;
+  margin-left: 198px;
+  font-size: 60px;
+  
+}
+
+
+
+@font-face{
+  font-family: FrancoisOne;
+  src: url(fonts/FrancoisOne-Regular.ttf);
+}
+@font-face{
+  font-family: CousineBold;
+  src: url(fonts/Cousine-Bold.ttf);
+}
+@font-face{
+  font-family: CousineRegular;
+  src: url(fonts/Cousine-Regular.ttf);
+}
+@font-face{
+  font-family: Anton;
+  src: url(fonts/Anton-Regular.ttf);
 }

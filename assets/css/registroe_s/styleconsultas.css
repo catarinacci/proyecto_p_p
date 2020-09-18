@@ -1,0 +1,14 @@
+table thead{
+    color:black;
+    font-weight: bolder;
+    background-color: royalblue;
+}
+tr:hover{
+    background-color: cornflowerblue;
+}
+.form-control {
+    width: 20%;
+}
+table{
+    margin-top: 10px;
+}
